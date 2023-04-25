@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fav-photos.component.css']
 })
 export class FavPhotosComponent implements OnInit {
-  photosTitle = 'Photo/Image Section Title Here';
-  image1 = 'https://www.launchcode.org/assets/icons/target-00c7a0bc7776901e3c5cdc4c36c465f19e41a249bc7267a595f0bfa14ab944b7.png';
-  image2 = '';
+  photosTitle = 'Favorite Photos';
+  image1 = 'https://tmssl.akamaized.net/images/foto/galerie/thierry-henry-1417524348-3352.jpg?lm=1483605830';
+  image2 = 'https://i2-prod.mirror.co.uk/incoming/article29353111.ece/ALTERNATES/n615/0_Arsenal-FC-v-Everton-FC-Premier-League.jpg';
   image3 = '';
 
   constructor() { }
